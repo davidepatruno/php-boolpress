@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.posts {
+  padding: 20px;
+  border: 2px solid lightblue;
+}
+
+.post {
+  height: 300px;
+  border: 2px solid green;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.wrapper .image {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+
+.wrapper .image img {
+  margin: 30% 10%;
+  height: 150px;
+}
+
+.wrapper .text {
+  float: left;
+  width: 75%;
+  margin: 40px 0 0 40px;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper ul a h2:hover {
+  color: green;
+}
+
+.wrapper .post_title {
+  font-size: bold;
+}
+
+.wrapper .data_post {
+  color: grey;
+}
+
+.wrapper .text_post {
+  margin: 5px 0 25px 0;
+}
+
